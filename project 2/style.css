@@ -455,3 +455,168 @@
     right: -160px;
     scale: 0.8;
   }
+/* 📱 Mobile devices (up to 600px) */
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0 5vw;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .nav-right-section {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .mainImg {
+    position: static;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .main p {
+    width: 90%;
+  }
+
+  .onEarImg {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .shopping-bag-section {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .social-media-section {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .specification-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .case-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .case-item div {
+    width: 90%;
+  }
+
+  .buy-product {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .buy-product div {
+    width: 90%;
+  }
+
+  .product {
+    margin: 0;
+  }
+
+  .product-items {
+    justify-content: center;
+    padding-left: 0;
+    gap: 30px;
+  }
+
+  .product-card {
+    width: 100px;
+    height: 100px;
+  }
+
+  .product-img {
+    width: 60px;
+    height: 80px;
+    top: -30px;
+    left: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-subscription > div:first-child {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .arrow-up {
+    position: static;
+    margin-top: 20px;
+  }
+}
+
+/* 💻 Tablets (601px - 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  body {
+    margin: 0 10vw;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  .main {
+    margin-left: 80px;
+  }
+
+  .mainImg {
+    top: -150px;
+    left: 20px;
+    width: 180px;
+  }
+
+  .product {
+    margin: 0 50px;
+  }
+
+  .product-items {
+    justify-content: center;
+    gap: 40px;
+    padding-left: 0;
+  }
+
+  .product-card {
+    width: 120px;
+    height: 120px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
